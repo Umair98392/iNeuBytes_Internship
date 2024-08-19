@@ -1,39 +1,61 @@
-IMDB Dataset Classification using Naive Bayes (Multinomial)
+# Sentiment Analysis of Movie Reviews
 
-This repository is created as part of the iNeuBytes virtual internship program[June_2023]. It contains the code and resources for classifying movie reviews from the IMDB dataset using the Naive Bayes classification algorithm, specifically the Multinomial Naive Bayes variant. The aim of this project is to develop a model that can accurately predict whether a given movie review is positive or negative based on the text content.
+![Project Image](img.webp)
 
-Dataset
+## Overview
 
-The IMDB dataset is a popular benchmark dataset for sentiment analysis. It consists of 50,000 movie reviews, split evenly into training and testing sets. Each review is labeled as either "positive" or "negative". The dataset is balanced, with an equal number of positive and negative reviews.
+This project focuses on classifying movie reviews from the IMDB dataset using the Naive Bayes classification algorithm, specifically the Multinomial Naive Bayes variant. The IMDB dataset is a popular benchmark dataset for sentiment analysis and consists of 50,000 movie reviews, evenly split into training and testing sets. Each review is labeled as either "positive" or "negative."
 
-You can download the dataset from IMDB website or from other reliable sources such as Kaggle or the UCI Machine Learning Repository.
+The goal of this project is to develop a model that can accurately predict whether a given movie review is positive or negative based on its text content. Additionally, a GUI interface has been created using Gradio, and the project is deployed on Hugging Face Spaces.
 
-Prerequisites
+## Features
 
-To run the code, you need to have the following dependencies installed:
-  Python (version 3.6 or higher)
-  scikit-learn library
+- **Sentiment Analysis**: Classify movie reviews as positive or negative using text-based features.
+- **Naive Bayes Algorithm**: Implemented using the Multinomial Naive Bayes variant, which is well-suited for text classification tasks.
+- **IMDB Dataset**: Utilized a dataset of 50,000 movie reviews, a common benchmark in sentiment analysis research.
+- **Gradio Interface**: A user-friendly GUI to interact with the model, allowing users to input their own movie reviews and get instant sentiment predictions.
+- **Deployment**: The project is deployed on Hugging Face Spaces, making it easily accessible to users.
 
-You can install the required libraries using the following command:
-      pip install scikit-learn
+## Usage
 
-Usage
+### Installation
 
-Clone this repository to your local machine or download the source code as a ZIP file.
-Navigate to the project directory.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/umair98392/Sentiment_Analysis_of_Movie_Reviews.git
+    cd Sentiment_Analysis_of_Movie_Reviews
+    ```
 
-Training the Model
+2. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-Predicting Sentiment
 
-Enter a movie review when prompted, and the model will predict the sentiment (positive or negative) of the review based on the trained model.
 
-Results and Evaluation
-The performance of the Naive Bayes classifier can be evaluated using metrics such as accuracy, precision, recall, and F1-score. These metrics indicate how well the model predicts the sentiment of movie reviews. The evaluation results can be found in the project documentation or can be implemented using the appropriate scikit-learn functions.
+### How to Use
 
-Future Enhancements
+The project is also deployed on Hugging Face Spaces. You can access the live interface here:
 
-Explore advanced preprocessing techniques, such as word embeddings or n-grams, to improve the model's performance.
-Optimize the hyperparameters of the Naive Bayes classifier for better results.
-Consider using ensemble methods or other advanced classification algorithms to further enhance the sentiment prediction accuracy.
-Incorporate domain-specific features, such as movie genre or director, to improve the model's understanding of the data.
+[Gradio Interface on Hugging Face Spaces](https://huggingface.co/spaces/your-username/your-project-name)
+
+## Dataset
+
+- **Source**: [IMDB Dataset](https://ai.stanford.edu/~amaas/data/sentiment/)
+- **Size**: 50,000 movie reviews
+- **Labels**: Positive, Negative
+- **Split**: 25,000 training samples, 25,000 testing samples
+
+## Model
+
+- **Algorithm**: Multinomial Naive Bayes
+- **Libraries**: Scikit-learn, NLTK, Gradio
+
+## Deployment
+
+- **Platform**: Hugging Face Spaces
+- **Interface**: Gradio
+
+## Contributing
+
+If you'd like to contribute to this project, please fork the repository and use a feature branch. Pull requests are welcome.
