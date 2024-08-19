@@ -22,8 +22,8 @@ The goal of this project is to develop a model that can accurately predict wheth
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/umair98392/Sentiment_Analysis_of_Movie_Reviews.git
-    cd Sentiment_Analysis_of_Movie_Reviews
+    git clone https://github.com/umair98392/iNeuBytes_Internship.git
+    cd iNeuBytes_Internship
     ```
 
 2. Install the required dependencies:
