@@ -1,6 +1,6 @@
 # Sentiment Analysis of Movie Reviews
 
-![Check Website](demo.png)[https://huggingface.co/spaces/Umair98392/sentiment]
+[![Check Website](demo.png)](https://huggingface.co/spaces/Umair98392/sentiment)
 
 ## Overview
 
