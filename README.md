@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project focuses on classifying movie reviews from the IMDB dataset using the Naive Bayes classification algorithm, specifically the Multinomial Naive Bayes variant. The IMDB dataset is a popular benchmark dataset for sentiment analysis and consists of 50,000 movie reviews, evenly split into training and testing sets. Each review is labeled as either "positive" or "negative."
+This project focuses on classifying movie reviews from the IMDB dataset using the Naive Bayes classification algorithm, specifically the Multinomial Naive Bayes variant. The IMDB dataset is a popular benchmark dataset for sentiment analysis and consists of 50,000 movie reviews, evenly split into training and testing sets. Each review is labeled as either "positive" or "negative".
 
 The goal of this project is to develop a model that can accurately predict whether a given movie review is positive or negative based on its text content. Additionally, a GUI interface has been created using Gradio, and the project is deployed on Hugging Face Spaces.
 
